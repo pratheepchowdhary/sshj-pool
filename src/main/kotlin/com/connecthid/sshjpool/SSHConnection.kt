@@ -1,14 +1,11 @@
 package com.connecthid.sshjpool
 
 import net.schmizz.sshj.SSHClient
-import net.schmizz.sshj.sftp.SFTPClient
 import net.schmizz.sshj.connection.channel.direct.Session
+import net.schmizz.sshj.sftp.SFTPClient
 import net.schmizz.sshj.transport.verification.PromiscuousVerifier
 import net.schmizz.sshj.xfer.scp.SCPFileTransfer
-import org.apache.commons.pool2.*
-import org.apache.commons.pool2.impl.*
 import org.slf4j.LoggerFactory
-import java.util.concurrent.atomic.AtomicInteger
 import java.util.concurrent.ConcurrentLinkedQueue
 
 /**
