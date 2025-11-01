@@ -33,19 +33,6 @@ implementation 'com.connecthid.sshjpool:SshJPool:1.0.0'
 
 ---
 
-### 🔧 Required Dependencies
-
-You must also include SSHJ, Apache Commons Pool, and SLF4J if not bundled:
-
-```kotlin
-implementation("com.hierynomus:sshj:0.37.0")
-implementation("org.apache.commons:commons-pool2:2.12.0")
-implementation("org.slf4j:slf4j-api:2.0.12")
-runtimeOnly("org.slf4j:slf4j-simple:2.0.12") // or Logback
-```
-
----
-
 ## 🧩 Package Overview
 
 ```
