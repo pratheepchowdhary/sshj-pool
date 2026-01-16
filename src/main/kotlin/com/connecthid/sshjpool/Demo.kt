@@ -8,7 +8,7 @@ fun main() {
     val pool = SSHConnectionPool(
         host = "152.42.223.136",
         username = "root",
-        password = "aA1pradeep",
+        password = "demopass",
         maxTotalConnections = 5,
         maxChannelsPerConnection = 10
     )
